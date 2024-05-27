@@ -12,7 +12,7 @@ if (!API_KEY) {
 }
 
 const openai = new OpenAI({
-  apiKey: API_KEY,
+  apiKey: OPENAI_API_KEY,
 });
 
 function App() {
