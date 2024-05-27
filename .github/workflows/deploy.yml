@@ -23,7 +23,7 @@ jobs:
 
       - name: Build project
         env:
-          VITE_OPENAI_API_KEY: ${{ secrets.VITE_OPENAI_API_KEY }}
+          REACT_APP_OPENAI_API_KEY: ${{ secrets.REACT_APP_OPENAI_API_KEY }}
         run: npm run build
 
       - name: Deploy to GitHub Pages

@@ -5,14 +5,14 @@ import React from 'react';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from "@chatscope/chat-ui-kit-react";
 import OpenAI from 'openai';
 
-const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
+const API_KEY = import.meta.env.REACT_APP_OPENAI_API_KEY;
 
 if (!API_KEY) {
-  console.error("The VITE_OPENAI_API_KEY environment variable is missing or empty.");
+  console.error("The REACT_APP_OPENAI_API_KEY environment variable is missing or empty.");
 }
 
 const openai = new OpenAI({
-  apiKey: OPENAI_API_KEY,
+  apiKey: API_KEY,
 });
 
 function App() {
