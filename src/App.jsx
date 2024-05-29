@@ -4,8 +4,8 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import React from 'react';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from "@chatscope/chat-ui-kit-react";
 
-//const API_KEY = import.meta.env.REACT_OPENAI_API_KEY;
-const API_KEY = "sk-proj-cb2BH8I42WCCgttoioCTT3BlbkFJLPYhhqJfUDfYLVTV0W9c";
+//You will need to get an API Key from https://platform.openai.com/api-keys and replace the text below.
+
 
 function App() {
   const [typing, setTyping] = useState(false);
