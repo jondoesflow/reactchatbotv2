@@ -21,9 +21,15 @@ This is ReactChatBotv2, it allows for consultants to home their skills in consul
 # Install Instructions (yeah the irony on low code and needing VS Code is not lost on me)
 
 1. Install VS Code
-2. Fork the MAIN repository from this GitHub repo
-3. Open the folder in VS Code
-4. Find the place in the APP.jsx code, where you need your API key, you can get this from https://platform.openai.com/api-keys
-5. Run npm run dev to run it on your local host http://localhost:3000/
+2. Click on Clone Git Respository
+3. Type in https://github.com/jondoesflow/reactchatbotv2.git
+4. Choose a place for the folder to reside
+5. Open the folder
+6. Open App.jsx and go to line 8, you will need your Open API key, you can get this from https://platform.openai.com/api-keys, paste it between the double quotes
+7. Save the file
+8. Open a terminal
+9. Type npm install
+10. Type npm run dev
+11. The react app will run on your local host http://localhost:3000/
 
 
