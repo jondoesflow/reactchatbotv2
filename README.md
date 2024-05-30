@@ -1,12 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# reactchatbotv2
+# Building Rapport (reactchatbotv2)
 
 I am mentoring someone in Australia around the Power Platform. An issue is that we have a timezone problem, I am in the UK.  We started using Loom for asynchronous meetings.  The first iteration of Building Rapport (reactchatbotv1) was born:
 
@@ -14,7 +6,9 @@ https://www.loom.com/share/fa78a67c4000484d856734eba8f0ef57?sid=91095082-6b91-40
 
 After that, I decided to spin up another Custom GPT, but that was then behind the ChatGPT + subscription.  So I have come up with this.
 
-This is ReactChatBotv2, it allows for consultants to home their skills in consulting whislt also giving them an idea on their passion on what to build.
+This is Building Rapport (ReactChatBotv2), it allows for consultants to home their skills in consulting whislt also giving them an idea on their passion on what to build.
+
+Watch the video for install instructions here - https://www.loom.com/share/72375e0e75174354a3686155b24442c1?sid=c558c857-f0c4-4415-b1fa-aa3ea29d7ec3
 
 <img width="815" alt="Building Rapport Screenshot" src="https://github.com/jondoesflow/reactchatbotv2/assets/60231096/7d64aca6-779a-4aaa-a668-9e169e7d7e11">
 
